@@ -41,6 +41,8 @@ public:
     ~WiFiMulti();
 
     bool addAP(const char* ssid, const char *passphrase = NULL);
+    
+    void cleanAPlist();
 
     uint8_t run(uint32_t connectTimeout=5000);
 
