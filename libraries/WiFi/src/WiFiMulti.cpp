@@ -203,7 +203,7 @@ uint8_t WiFiMulti::run(uint32_t connectTimeout)
     return status;
 }
 
-void WiFiMulti::APlistClean()
+void WiFiMulti::cleanAPlist()
 {
     for(uint32_t i = 0; i < APlist.size(); i++) {
         WifiAPlist_t entry = APlist[i];
