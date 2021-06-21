@@ -8,9 +8,6 @@ tools/mkspiffs
 tools/mklittlefs
 .DS_Store
 
-# Ignore docs build
-docs/_build
-
 #Ignore files built by Visual Studio/Visual Micro
 [Dd]ebug*/
 [Rr]elease*/
@@ -21,3 +18,7 @@ __vm/
 platform.sloeber.txt
 boards.sloeber.txt
 tools/mklittlefs
+
+# Ignore docs build (Sphinx)
+docs/_build
+docs/build
